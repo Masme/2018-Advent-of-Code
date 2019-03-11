@@ -8,14 +8,14 @@ public class day_1_Part_1 {
     }
 
     public static int determineFrequency() {
-        int Frequency = 0;
+            int Frequency = 0;
         try {
             File input = new File("Day_1_input.txt");
             Scanner scan = new Scanner(input);
             while (scan.hasNextLine()) {
                 String line = scan.nextLine();
                 Frequency += Integer.parseInt(line);
-            }
+        }
         }catch (Exception e) {
             e.printStackTrace();
         }
